@@ -14,8 +14,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #080808;
-    color: #e8e8e8;
+    background: #07130d;
+    color: #e8f5ed;
     line-height: 1.6;
 }
 
@@ -25,12 +25,12 @@ a {
 }
 
 strong {
-    color: #ff8a00;
+    color: #22c55e;
 }
 
 ::selection {
-    background: #ff8a00;
-    color: #080808;
+    background: #22c55e;
+    color: #06120b;
 }
 
 
@@ -43,16 +43,16 @@ strong {
 }
 
 ::-webkit-scrollbar-track {
-    background: #080808;
+    background: #06100a;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ff8a00;
+    background: #16a34a;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff9f32;
+    background: #22c55e;
 }
 
 
@@ -77,17 +77,17 @@ header {
     background:
         radial-gradient(
             circle at 50% 20%,
-            rgba(255, 138, 0, 0.16),
+            rgba(34, 197, 94, 0.16),
             transparent 35%
         ),
         linear-gradient(
             135deg,
-            #080808 0%,
-            #111111 50%,
-            #080808 100%
+            #06100a 0%,
+            #0b1d13 50%,
+            #06100a 100%
         );
 
-    border-bottom: 1px solid rgba(255, 138, 0, 0.25);
+    border-bottom: 1px solid rgba(34, 197, 94, 0.25);
 }
 
 
@@ -101,7 +101,7 @@ header::before {
     width: 400px;
     height: 400px;
 
-    background: rgba(255, 138, 0, 0.08);
+    background: rgba(34, 197, 94, 0.08);
 
     border-radius: 50%;
 
@@ -123,7 +123,9 @@ header::before {
 }
 
 
-/* badge */
+/* =========================================================
+   BADGE
+========================================================= */
 
 .badge-profissional {
     display: inline-block;
@@ -132,13 +134,13 @@ header::before {
 
     margin-bottom: 25px;
 
-    border: 1px solid rgba(255, 138, 0, 0.4);
+    border: 1px solid rgba(34, 197, 94, 0.40);
 
     border-radius: 50px;
 
-    background: rgba(255, 138, 0, 0.08);
+    background: rgba(34, 197, 94, 0.08);
 
-    color: #ff9a24;
+    color: #4ade80;
 
     font-size: 14px;
     font-weight: 700;
@@ -147,7 +149,9 @@ header::before {
 }
 
 
-/* nome */
+/* =========================================================
+   NOME
+========================================================= */
 
 header h1 {
     font-size: clamp(48px, 8vw, 82px);
@@ -164,25 +168,29 @@ header h1 {
 }
 
 
-/* subtítulo */
+/* =========================================================
+   SUBTÍTULO
+========================================================= */
 
 .subtitulo {
     font-size: 21px;
 
-    color: #bdbdbd;
+    color: #c8d8ce;
 
     margin-bottom: 20px;
 }
 
 
-/* descrição */
+/* =========================================================
+   DESCRIÇÃO
+========================================================= */
 
 .descricao-header {
     max-width: 680px;
 
     margin: 0 auto 35px;
 
-    color: #929292;
+    color: #91a79a;
 
     font-size: 17px;
 
@@ -223,28 +231,32 @@ header h1 {
 }
 
 
-.btn-principal {
-    background: #ff8a00;
+/* botão principal */
 
-    color: #080808;
+.btn-principal {
+    background: #16a34a;
+
+    color: #ffffff;
 
     box-shadow:
-        0 8px 30px rgba(255, 138, 0, 0.20);
+        0 8px 30px rgba(22, 163, 74, 0.25);
 }
 
 
 .btn-principal:hover {
     transform: translateY(-3px);
 
-    background: #ff9d2e;
+    background: #22c55e;
 
     box-shadow:
-        0 12px 35px rgba(255, 138, 0, 0.30);
+        0 12px 35px rgba(34, 197, 94, 0.30);
 }
 
 
+/* botão secundário */
+
 .btn-secundario {
-    border: 1px solid #333;
+    border: 1px solid #294335;
 
     color: #ffffff;
 
@@ -255,9 +267,11 @@ header h1 {
 .btn-secundario:hover {
     transform: translateY(-3px);
 
-    border-color: #ff8a00;
+    border-color: #22c55e;
 
-    color: #ff9a24;
+    color: #4ade80;
+
+    background: rgba(34, 197, 94, 0.05);
 }
 
 
@@ -299,7 +313,7 @@ section {
 
     margin-bottom: 14px;
 
-    color: #ff8a00;
+    color: #22c55e;
 
     font-size: 13px;
 
@@ -323,7 +337,7 @@ section {
 
 
 .titulo-secao p {
-    color: #8f8f8f;
+    color: #91a79a;
 
     font-size: 16px;
 
@@ -343,11 +357,11 @@ section {
     background:
         linear-gradient(
             145deg,
-            #111111,
-            #0d0d0d
+            #0d2115,
+            #0a1710
         );
 
-    border: 1px solid #222;
+    border: 1px solid #1d3826;
 
     border-radius: 18px;
 
@@ -357,7 +371,7 @@ section {
 
 
 .sobre-conteudo p {
-    color: #a5a5a5;
+    color: #a7b9ad;
 
     font-size: 17px;
 
@@ -401,11 +415,11 @@ section {
     background:
         linear-gradient(
             145deg,
-            #121212,
-            #0d0d0d
+            #0e2115,
+            #0a1710
         );
 
-    border: 1px solid #222;
+    border: 1px solid #1c3625;
 
     border-radius: 18px;
 
@@ -429,7 +443,7 @@ section {
     background: linear-gradient(
         90deg,
         transparent,
-        #ff8a00,
+        #22c55e,
         transparent
     );
 
@@ -442,7 +456,7 @@ section {
 .card:hover {
     transform: translateY(-8px);
 
-    border-color: rgba(255, 138, 0, 0.35);
+    border-color: rgba(34, 197, 94, 0.35);
 
     box-shadow:
         0 20px 50px rgba(0, 0, 0, 0.35);
@@ -453,6 +467,8 @@ section {
     opacity: 1;
 }
 
+
+/* ícone */
 
 .icone-servico {
     width: 52px;
@@ -467,9 +483,9 @@ section {
 
     border-radius: 14px;
 
-    background: rgba(255, 138, 0, 0.10);
+    background: rgba(34, 197, 94, 0.10);
 
-    border: 1px solid rgba(255, 138, 0, 0.15);
+    border: 1px solid rgba(34, 197, 94, 0.18);
 
     font-size: 23px;
 }
@@ -485,7 +501,7 @@ section {
 
 
 .card p {
-    color: #8f8f8f;
+    color: #91a79a;
 
     font-size: 14px;
 
@@ -511,11 +527,11 @@ section {
 
     border-radius: 50px;
 
-    background: #111111;
+    background: #0d1d13;
 
-    border: 1px solid #292929;
+    border: 1px solid #25412e;
 
-    color: #cfcfcf;
+    color: #cbd9d0;
 
     font-size: 14px;
 
@@ -526,11 +542,11 @@ section {
 
 
 .habilidades-lista span:hover {
-    color: #ff8a00;
+    color: #4ade80;
 
-    border-color: rgba(255, 138, 0, 0.45);
+    border-color: rgba(34, 197, 94, 0.45);
 
-    background: rgba(255, 138, 0, 0.06);
+    background: rgba(34, 197, 94, 0.07);
 
     transform: translateY(-2px);
 }
@@ -562,11 +578,11 @@ section {
     background:
         linear-gradient(
             145deg,
-            #121212,
-            #0d0d0d
+            #0e2115,
+            #0a1710
         );
 
-    border: 1px solid #222;
+    border: 1px solid #1c3625;
 
     border-radius: 20px;
 
@@ -587,7 +603,7 @@ section {
     right: -70px;
     bottom: -70px;
 
-    background: rgba(255, 138, 0, 0.06);
+    background: rgba(34, 197, 94, 0.06);
 
     border-radius: 50%;
 
@@ -600,7 +616,7 @@ section {
 .projeto:hover {
     transform: translateY(-7px);
 
-    border-color: rgba(255, 138, 0, 0.30);
+    border-color: rgba(34, 197, 94, 0.30);
 
     box-shadow:
         0 20px 55px rgba(0, 0, 0, 0.35);
@@ -608,7 +624,7 @@ section {
 
 
 .projeto:hover::after {
-    background: rgba(255, 138, 0, 0.12);
+    background: rgba(34, 197, 94, 0.12);
 }
 
 
@@ -630,7 +646,7 @@ section {
 
     margin-bottom: 18px;
 
-    color: #555;
+    color: #52705d;
 
     font-size: 13px;
 
@@ -652,7 +668,7 @@ section {
 
 
 .projeto p {
-    color: #8f8f8f;
+    color: #91a79a;
 
     font-size: 15px;
 
@@ -677,11 +693,11 @@ section {
 
     border-radius: 50px;
 
-    background: rgba(255, 138, 0, 0.10);
+    background: rgba(34, 197, 94, 0.10);
 
-    border: 1px solid rgba(255, 138, 0, 0.25);
+    border: 1px solid rgba(34, 197, 94, 0.25);
 
-    color: #ff9a24;
+    color: #4ade80;
 
     font-size: 11px;
 
@@ -700,18 +716,18 @@ section {
 
     min-height: 330px;
 
-    border-color: rgba(255, 138, 0, 0.25);
+    border-color: rgba(34, 197, 94, 0.25);
 
     background:
         radial-gradient(
             circle at 80% 20%,
-            rgba(255, 138, 0, 0.09),
+            rgba(34, 197, 94, 0.09),
             transparent 35%
         ),
         linear-gradient(
             145deg,
-            #15120f,
-            #0d0d0d
+            #102719,
+            #0a1710
         );
 }
 
@@ -731,7 +747,7 @@ section {
 
     padding-top: 10px;
 
-    color: #ff9a24 !important;
+    color: #4ade80 !important;
 
     font-size: 13px !important;
 
@@ -741,20 +757,20 @@ section {
 }
 
 
-/* quando tecnologias for span */
+/* tecnologias em formato de badge */
 
 .tecnologias span {
     display: inline-block;
 
     padding: 6px 11px;
 
-    background: #191919;
+    background: #112318;
 
-    border: 1px solid #292929;
+    border: 1px solid #284734;
 
     border-radius: 50px;
 
-    color: #bdbdbd;
+    color: #b9cabe;
 
     font-size: 12px;
 }
@@ -787,9 +803,9 @@ section {
 
     border-radius: 8px;
 
-    background: #ff8a00;
+    background: #16a34a;
 
-    color: #080808;
+    color: #ffffff;
 
     font-size: 14px;
 
@@ -800,21 +816,21 @@ section {
 
 
 .botoes-projeto a:hover {
-    background: #ff9d2e;
+    background: #22c55e;
 
     transform: translateY(-2px);
 
     box-shadow:
-        0 8px 20px rgba(255, 138, 0, 0.20);
+        0 8px 20px rgba(34, 197, 94, 0.20);
 }
 
 
 .botoes-projeto .btn-github {
     background: transparent;
 
-    border: 1px solid #333;
+    border: 1px solid #31513b;
 
-    color: #d0d0d0;
+    color: #d0ddd4;
 }
 
 
@@ -823,7 +839,7 @@ section {
 
     border-color: #ffffff;
 
-    color: #080808;
+    color: #07130d;
 
     box-shadow: none;
 }
@@ -841,16 +857,16 @@ section {
     background:
         radial-gradient(
             circle at 80% 20%,
-            rgba(255, 138, 0, 0.12),
+            rgba(34, 197, 94, 0.12),
             transparent 35%
         ),
         linear-gradient(
             135deg,
-            #141414,
-            #0d0d0d
+            #102719,
+            #0a1710
         );
 
-    border: 1px solid rgba(255, 138, 0, 0.20);
+    border: 1px solid rgba(34, 197, 94, 0.20);
 
     border-radius: 22px;
 }
@@ -872,7 +888,7 @@ section {
 
     margin-bottom: 15px;
 
-    color: #ff8a00;
+    color: #22c55e;
 
     font-size: 12px;
 
@@ -898,13 +914,17 @@ section {
 .contato-conteudo p {
     max-width: 650px;
 
-    color: #8f8f8f;
+    color: #91a79a;
 
     font-size: 16px;
 
     line-height: 1.8;
 }
 
+
+/* =========================================================
+   BOTÕES DE CONTATO
+========================================================= */
 
 .contato-acoes {
     display: flex;
@@ -936,10 +956,12 @@ section {
 }
 
 
+/* WhatsApp */
+
 .btn-whatsapp {
     background: #25d366;
 
-    color: #07140b;
+    color: #06120b;
 }
 
 
@@ -953,8 +975,10 @@ section {
 }
 
 
+/* GitHub */
+
 .contato-acoes .btn-github {
-    border: 1px solid #333;
+    border: 1px solid #31513b;
 
     background: transparent;
 
@@ -965,7 +989,7 @@ section {
 .contato-acoes .btn-github:hover {
     background: #ffffff;
 
-    color: #080808;
+    color: #07130d;
 
     border-color: #ffffff;
 }
@@ -976,9 +1000,9 @@ section {
 ========================================================= */
 
 footer {
-    border-top: 1px solid #1f1f1f;
+    border-top: 1px solid #183021;
 
-    background: #050505;
+    background: #050b07;
 
     padding: 45px 25px 25px;
 }
@@ -1011,7 +1035,7 @@ footer {
 
 
 .footer-conteudo p {
-    color: #707070;
+    color: #718278;
 
     font-size: 13px;
 }
@@ -1024,14 +1048,14 @@ footer {
 
     padding-top: 20px;
 
-    border-top: 1px solid #181818;
+    border-top: 1px solid #132219;
 
     text-align: center;
 }
 
 
 .footer-bottom p {
-    color: #555;
+    color: #536158;
 
     font-size: 12px;
 }
@@ -1212,7 +1236,7 @@ footer {
 
 a:focus-visible,
 span:focus-visible {
-    outline: 2px solid #ff8a00;
+    outline: 2px solid #22c55e;
 
     outline-offset: 4px;
 }
